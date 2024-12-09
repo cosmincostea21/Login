@@ -12,12 +12,20 @@ main{
     display: inline-block; /*Es inline-block ya que quieres que se comporte como bloque y que esté en linea*/
     align-items: center;
     justify-content: center;
-    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgba(23, 54, 23, 0.795);
     text-align: center;
     border: 2px solid black;
     border-radius: 15px;
 
+}
+
+#login{
+    font-size: 30px;
+    color: black;
+    margin-top: 0%;
+    font-weight: bold;
 }
 
 img{
